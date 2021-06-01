@@ -288,4 +288,41 @@
 
  });
 
+
+
+
 })()
+
+ function overpassFun() {
+
+ var dummyVar = document.getElementById("portfolio-flters");
+ var dummyItems = dummyVar.getElementsByTagName("li");
+ for (let datas of dummyItems){
+
+  datas.classList.remove("filter-active");
+
+ 
+   if (datas.dataset.filter == ".filter-oDucting")
+   {
+     console.log(datas.dataset.filter )
+
+      datas.className = "filter-active";
+   
+   }
+ }
+
+ let portfolioContainer = select('.portfolio-container');
+ if (portfolioContainer) {
+   let portfolioIsotope = new Isotope(portfolioContainer, {
+     itemSelector: '.portfolio-item',
+     layoutMode: 'fitRows'
+   });
+  }
+ portfolioIsotope.arrange({
+  filter: this.getAttribute('data-filter')
+});
+portfolioIsotope.on('arrangeComplete', function() {
+  AOS.refresh();
+});
+ }
+
