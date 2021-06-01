@@ -1377,6 +1377,7 @@ section {
 
 .pricing img{
   max-width: 196px;
+  border-radius: 20%;
 }
 
 .pricing h3 {
