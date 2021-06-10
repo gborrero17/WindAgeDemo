@@ -899,7 +899,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#9608e8 50%, rgba(8, 128, 232, 0.4) 52%);
+  background: radial-gradient(#9608e8 50%, rgba(195, 8, 232, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -1516,7 +1516,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #75faac;
+  color: #df75fa;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1887,12 +1887,12 @@ section {
 }
 
 .blog .entry .entry-footer i {
-  color: #8ec8fb;
+  color: #ca8efb;
   display: inline;
 }
 
 .blog .entry .entry-footer a {
-  color: #13f75f;
+  color: #c213f7;
   transition: 0.3s;
 }
 
@@ -2078,7 +2078,7 @@ section {
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #13f75f;
+  background-color: #b613f7;
 }
 
 .blog .blog-pagination {
@@ -2320,7 +2320,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #06ad4c;
+  background: #9906ad;
   padding: 60px 0 30px 0;
 }
 
@@ -2386,7 +2386,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5df99e;
+  color: #cd5df9;
   font-size: 18px;
   line-height: 1;
 }
