@@ -283,11 +283,11 @@
   ///////Change words on advantage-highways
   const swiper = document.getElementsByClassName('swiper-container')
 
-  console.log(swiper);
-  swiper[0].addEventListener('activeIndexChange', function () {
-    console.log('activeIndexChange');
+  //console.log(swiper);
 
-  });
+  /* swiper[0].addEventListener('activeIndexChange', function () {
+    console.log('activeIndexChange');
+  }); */
 
 })()
 
