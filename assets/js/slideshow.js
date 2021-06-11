@@ -2,19 +2,15 @@ startSlideShow = document.getElementsByClassName("slideshow");
 
 for (let slideButton of startSlideShow) {
     slideButton.addEventListener("long-press", function (e) {
-        console.log(slideButton);
-        if (slideButton.innerHTML === "Traffic Driven Wind Generators") {
-            window.open("https://docs.google.com/presentation/d/e/2PACX-1vSIyt_hTEo7o8sRuF5cUUPpiXzpfihBzQwa0pIbzCE_8W0HDpmm2g1fRWHMV90Qa-sKdrTW3jHgoahu/pub?start=true&loop=true&delayms=3000", "_blank")
-            console.log(slideButton.innerHTML);
+        if (slideButton.id === "slide1") {
+            window.open("https://docs.google.com/presentation/d/e/2PACX-1vRA6Pokxp18NY5R74Ip-D6k3j6JnR_K-JcRpDAw9IpLFCiTX8SxLipGkqV7Y1lrNVIfLi5c-KP1MXBZ/pub?start=true&loop=true&delayms=3000", "_blank")        
         }
-        if (slideButton.innerHTML === "Human Energy Harvesters") {
-           // window.open("https://docs.google.com/presentation/d/e/2PACX-1vSIyt_hTEo7o8sRuF5cUUPpiXzpfihBzQwa0pIbzCE_8W0HDpmm2g1fRWHMV90Qa-sKdrTW3jHgoahu/pub?start=true&loop=true&delayms=3000", "_blank")
-            console.log(slideButton.innerHTML);
+        if (slideButton.id === "slide2") {
+            window.open("https://docs.google.com/presentation/d/e/2PACX-1vQ0bZeNuuSzxSbxCJ1Cdi9mS9fpC4v5XlJUZZfGF7-RorSQXeCt0PJijEuLA2kBXBMBeLcMW__Mho3Y/pub?start=true&loop=true&delayms=3000", "_blank")
         }
-        if (slideButton.innerHTML === "Other") {
-            // window.open("https://docs.google.com/presentation/d/e/2PACX-1vSIyt_hTEo7o8sRuF5cUUPpiXzpfihBzQwa0pIbzCE_8W0HDpmm2g1fRWHMV90Qa-sKdrTW3jHgoahu/pub?start=true&loop=true&delayms=3000", "_blank")
-             console.log(slideButton.innerHTML);
-         }
+        if (slideButton.id === "slide3") {
+            window.open("https://docs.google.com/presentation/d/e/2PACX-1vS8TJ3Be7RE0OixVrD4h3bg0hJhlP-_4M370lCNOOgYFEomOty8CE17xJ0RhVDEMuw-5I2nMRqjiJxR/pub?start=true&loop=true&delayms=3000", "_blank")
+        }
     });
 }
 
