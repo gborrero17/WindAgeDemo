@@ -2435,3 +2435,11 @@ section {
 #footer .credits a {
   color: #f6b024;
 }
+
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
