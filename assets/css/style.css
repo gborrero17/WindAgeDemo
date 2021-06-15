@@ -1288,9 +1288,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.team .member:hover img {
-  transform: scale(1.1);
-}
+
 
 .team .member .member-info {
   padding-left: 30px;
@@ -1358,6 +1356,15 @@ section {
 
 .team .member .social a + a {
   margin-left: 8px;
+}
+
+.award {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5%;
 }
 
 /*--------------------------------------------------------------
