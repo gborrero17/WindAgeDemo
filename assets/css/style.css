@@ -1059,7 +1059,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -2442,10 +2442,11 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/people.png") no-repeat;
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/people.png") fixed center center;
   background-position: center center;
   background-size: cover;
   position: relative;
+  font-size: 1.5rem;
 }
 
 .testimonials::before {
@@ -2455,7 +2456,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  
 }
 
 .testimonials .section-header {
