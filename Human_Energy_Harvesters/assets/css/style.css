@@ -1385,7 +1385,7 @@ section {
   box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
   border-radius: 13px;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
   margin: 30px 0 30px 0;
 }
 
@@ -2456,3 +2456,11 @@ section {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.truncate-more {
+  width: 450px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
