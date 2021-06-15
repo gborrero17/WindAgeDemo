@@ -2460,3 +2460,9 @@ section {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.wrapTextToImage {
+	width: 35vw;
+	float: left;
+	margin-right: 10px;
+}
