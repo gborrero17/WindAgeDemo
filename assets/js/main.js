@@ -169,41 +169,6 @@
     });
   }
 
-  /**
-   * Clients Slider
-   */
-  new Swiper('.clients-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 40
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 60
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 80
-      },
-      992: {
-        slidesPerView: 6,
-        spaceBetween: 120
-      }
-    }
-  });
 
   /**
    * Porfolio isotope and filter
@@ -245,9 +210,45 @@
   });
 
   /**
+     * Clients Slider
+     */
+  const clientSlider = new Swiper('.clients-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 60
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 80
+      },
+      992: {
+        slidesPerView: 6,
+        spaceBetween: 120
+      }
+    }
+  });
+
+  /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  const portfolioSlider = new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -262,6 +263,35 @@
   });
 
   /**
+   * Testimonials slider
+   */
+  const testimonialSlider = new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+
+  });
+
+  
+  /**
+   * Testimonials slider
+   */
+   const futureIdeasSlider  = new Swiper('.futures-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+
+  });
+
+  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
@@ -273,60 +303,9 @@
     })
   });
 
-
-  ///////Change words on advantage-highways
-  const swiper = document.getElementsByClassName('swiper-container')
-
-  //console.log(swiper);
-
-  /* swiper[0].addEventListener('activeIndexChange', function () {
-    console.log('activeIndexChange');
-  }); */
-
 })()
 
-function overpassFun() {
-  console.log("im in the fun overpass function");
 
-  /* var dummyVar = document.getElementById("portfolio-flters");
-var dummyItems = dummyVar.getElementsByTagName("li");
-for (let datas of dummyItems){
-
- datas.classList.remove("filter-active");
-
- 
-  if (datas.dataset.filter == ".filter-oDucting")
-  {
-    console.log(datas.dataset.filter )
-
-     datas.className = "filter-active";
-  
-  }
-}
-
-let portfolioContainer = document.querySelector(".portfolio-container");
-console.log(portfolioContainer);
-if (portfolioContainer) {
-  var portfolioIsotope = new Isotope(portfolioContainer, {
-    itemSelector: '.portfolio-item',
-    layoutMode: 'fitRows'
-  }); */
-
-}
-
-/**
-   * Testimonials slider
-   */
-new Swiper('.testimonials-slider', {
-  speed: 600,
-  loop: true,
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false
-  },
-  slidesPerView: 'auto',
-
-});
 
 
 
