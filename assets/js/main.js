@@ -1,9 +1,3 @@
-/**
-* Template Name: Anyar - v4.2.0
-* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function () {
   "use strict";
 
@@ -119,7 +113,7 @@
 
   /**
    * Mobile nav toggle
-   */
+  */
   on('click', '.mobile-nav-toggle', function (e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
@@ -137,7 +131,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function (e) {
     if (select(this.hash)) {
@@ -323,7 +317,7 @@ if (portfolioContainer) {
 /**
    * Testimonials slider
    */
- new Swiper('.testimonials-slider', {
+new Swiper('.testimonials-slider', {
   speed: 600,
   loop: true,
   autoplay: {
