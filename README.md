@@ -1,2 +1,0 @@
-# WindAgeDemo
-Demo for client
