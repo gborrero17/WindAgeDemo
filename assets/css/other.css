@@ -214,11 +214,11 @@ h6 {
 }
 
 .header-inner-pages {
-	background: rgba(100, 67, 19, 0.9) !important;
+	background: rgb(217 160 0 / 90%) !important;
 }
 
 .topbar-inner-pages {
-	background: rgba(178, 98, 6, 0.9) !important;
+	background:rgb(255 247 0) !important;
 }
 
 /*--------------------------------------------------------------
@@ -318,7 +318,7 @@ h6 {
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: none;
-	color: #543e03;
+	color: #c07300;
 }
 
 .navbar .dropdown ul a i {
@@ -391,7 +391,7 @@ h6 {
 	right: 0;
 	left: 0;
 	bottom: 0;
-	background: rgba(133, 88, 5, 0.9);
+	background: rgba(184, 131, 32, 0.9);
 	transition: 0.3s;
 	z-index: 999;
 }
@@ -494,7 +494,7 @@ h6 {
 
 #hero:before {
 	content: "";
-	background: rgba(183, 136, 6, 0.7);
+	background: rgb(255 247 0 / 67%);
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -2300,7 +2300,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-	background: #9e6e05;
+	background: rgb(217 160 0);
 	padding: 0 0 30px 0;
 	color: #fff;
 	font-size: 14px;
