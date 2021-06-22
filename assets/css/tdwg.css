@@ -1,11 +1,4 @@
-/**
-* Template Name: Anyar - v4.2.0
-* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
+/*------------------------------------------------------------
 # General
 
 #0e8900
@@ -17,8 +10,6 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
-
 
 a {
   text-decoration: none;
@@ -2464,5 +2455,6 @@ section {
 .wrapTextToImage {
 	width: 35vw;
 	float: left;
-	margin-right: 10px;
+	margin-right: 37px;
 }
+
