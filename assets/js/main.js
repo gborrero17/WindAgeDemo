@@ -264,14 +264,14 @@
 
   portfolioSlider.on('slideChange', function () {
     let activeSlide = portfolioSlider.slides[portfolioSlider.activeIndex];
-    let portfolioTitle = document.querySelector('#slide-portfolio-title');
-    let portfolioText = document.querySelector('#slide-portfolio-text');
-    console.log(activeSlide.dataset.ptext);
+    let portfolioTitle = document.querySelector('.slide-portfolio-title');
+    let portfolioText = document.querySelector('.slide-portfolio-text');
+    
     if (activeSlide.dataset.ptitle) {
       portfolioTitle.innerHTML = activeSlide.dataset.ptitle;
       portfolioText.innerHTML = activeSlide.dataset.ptext;
     }
-    
+
   });
 
   /**
