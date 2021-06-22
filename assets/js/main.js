@@ -253,13 +253,25 @@
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: true
     },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     }
+  });
+
+  portfolioSlider.on('slideChange', function () {
+    let activeSlide = portfolioSlider.slides[portfolioSlider.activeIndex];
+    let portfolioTitle = document.querySelector('#slide-portfolio-title');
+    let portfolioText = document.querySelector('#slide-portfolio-text');
+    console.log(activeSlide.dataset.ptext);
+    if (activeSlide.dataset.ptitle) {
+      portfolioTitle.innerHTML = activeSlide.dataset.ptitle;
+      portfolioText.innerHTML = activeSlide.dataset.ptext;
+    }
+    
   });
 
   /**
@@ -276,11 +288,11 @@
 
   });
 
-  
+
   /**
    * Testimonials slider
    */
-   const futureIdeasSlider  = new Swiper('.futures-slider', {
+  const futureIdeasSlider = new Swiper('.futures-slider', {
     speed: 400,
     loop: true,
     autoplay: {
