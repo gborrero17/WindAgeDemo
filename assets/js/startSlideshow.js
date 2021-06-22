@@ -3,13 +3,16 @@ startSlideShow = document.getElementsByClassName("slideshow");
 for (let slideButton of startSlideShow) {
     slideButton.addEventListener("long-press", function (e) {
         if (slideButton.id === "slide1") {
-            window.open("https://docs.google.com/presentation/d/e/2PACX-1vRA6Pokxp18NY5R74Ip-D6k3j6JnR_K-JcRpDAw9IpLFCiTX8SxLipGkqV7Y1lrNVIfLi5c-KP1MXBZ/pub?start=true&loop=true&delayms=3000", "_blank")        
+            window.open("https://docs.google.com/presentation/d/e/2PACX-1vQNs6N2VArlKjYAJhK-_731JC_Gp8NZKKKUmwEsIIBwrDs-ReUxf-nIP-A82fzCqqwFGGpsUGHwO3fo/pub?start=true&loop=true&delayms=3000", "_blank")        
         }
         if (slideButton.id === "slide2") {
-            window.open("https://docs.google.com/presentation/d/e/2PACX-1vQ0bZeNuuSzxSbxCJ1Cdi9mS9fpC4v5XlJUZZfGF7-RorSQXeCt0PJijEuLA2kBXBMBeLcMW__Mho3Y/pub?start=true&loop=true&delayms=3000", "_blank")
+            window.open("https://docs.google.com/presentation/d/e/2PACX-1vStoUoAwXp00blBEySHGY19sMU_Lqu0m37GER4fo-8aa2njsyotbJ1h-a5-EvRq9oMKJg13_uQ1J2YW/pub?start=true&loop=true&delayms=3000", "_blank")
         }
         if (slideButton.id === "slide3") {
-            window.open("https://docs.google.com/presentation/d/e/2PACX-1vS8TJ3Be7RE0OixVrD4h3bg0hJhlP-_4M370lCNOOgYFEomOty8CE17xJ0RhVDEMuw-5I2nMRqjiJxR/pub?start=true&loop=true&delayms=3000", "_blank")
+            window.open("https://docs.google.com/presentation/d/e/2PACX-1vT-I3v254E1YwmdD4LCy5Lsa4l59NQphQa1Q_MsCMRd2TP84mT2c0s8SujwRRP7TLM2g7OAct1Vy_-h/pub?start=true&loop=true&delayms=3000", "_blank")
+        }
+        if (slideButton.id === "slide4") {
+            window.open("https://docs.google.com/presentation/d/e/2PACX-1vSqX_mxmzU6rawnAKOSDF2DHEU8p1wFVtArSYxwKQakJwTtBAj8bx1kK9WoBt0GzC7Kh_-byYXbAjx3/pub?start=true&loop=true&delayms=3000", "_blank")
         }
     });
 }
