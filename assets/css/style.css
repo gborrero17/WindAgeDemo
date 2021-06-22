@@ -605,7 +605,57 @@ section {
   box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
+
 }
+
+@media screen and (max-width: 100000000000px) {
+  .icon-boxes .icon-box {
+
+    height: 270px;
+
+  }
+}
+
+
+@media screen and (max-width: 1400px) {
+  .icon-boxes .icon-box {
+
+    height: 313px;
+
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 1200px) {
+  .icon-boxes .icon-box {
+
+    height: 364px;
+
+  }
+}
+
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 992px) {
+  .icon-boxes .icon-box {
+;
+    height: 300px;
+
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 767px) {
+  .icon-boxes .icon-box {
+  
+    height: auto;
+
+  }
+}
+
+
+
+
 
 .icon-boxes .icon {
   margin: 0 auto 20px auto;
