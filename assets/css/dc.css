@@ -158,6 +158,12 @@ h6 {
     max-height: 67px;
 }
 
+#topbar .contact-info a {
+    line-height: 0;
+    color: white;
+    transition: 0.3s;
+}
+
 .header-inner-pages {
     background: rgba(41, 44, 46, 0.9) !important;
 }
