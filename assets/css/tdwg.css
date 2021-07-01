@@ -125,6 +125,14 @@ h6 {
     }
 }
 
+@media (max-width: 1000px) {
+    #topbar .contact-info a {
+        display: none;
+    }
+    .bi-envelope-fill::before {
+        display: none;
+    }
+}
 
 
 /*--------------------------------------------------------------
@@ -451,7 +459,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(10, 10, 10, 0.7);
+    background-image: linear-gradient(to bottom, rgba(5, 133, 58, .7), rgb(255 255 255));
     position: absolute;
     bottom: 0;
     top: 0;

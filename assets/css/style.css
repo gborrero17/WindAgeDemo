@@ -120,6 +120,21 @@ h6 {
     }
 }
 
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    #topbar .contact-info a {
+        display: none;
+    }
+    .bi-envelope-fill::before {
+        display: none;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -499,6 +514,7 @@ h6 {
     margin-bottom: -90px;
     z-index: 99;
     transition: 0.3s;
+    height: 118vh;
 }
 
 #hero:before {

@@ -128,6 +128,21 @@ h6 {
     }
 }
 
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    #topbar .contact-info a {
+        display: none;
+    }
+    .bi-envelope-fill::before {
+        display: none;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Header
@@ -453,7 +468,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(10, 10, 10, 0.7);
+    background-image: linear-gradient(to bottom, rgba(133, 99, 5, .7), rgb(255 255 255));
     position: absolute;
     bottom: 0;
     top: 0;
