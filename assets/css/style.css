@@ -524,6 +524,13 @@ h6 {
     right: 0;
 }
 
+#hero h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
 #hero h2 {
     color: #fff;
     margin-bottom: 30px;
@@ -663,12 +670,10 @@ section {
 }
 
 @media screen and (max-width: 1500px) {
-	.btn-get-started{
-		font-size: x-small;
-	}
+    .btn-get-started {
+        font-size: x-small;
+    }
 }
-
-
 
 .icon-boxes ul {
     font-size: smaller;
