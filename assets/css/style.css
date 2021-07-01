@@ -647,6 +647,14 @@ section {
 	}
 }
 
+@media screen and (max-width: 1500px) {
+	.btn-get-started{
+		font-size: x-small;
+	}
+}
+
+
+
 .icon-boxes ul {
 	font-size: smaller;
 }
