@@ -13,12 +13,14 @@
         color: #444444;
     }
     
-    a {
+    a,
+    li:nth-child(3) {
         text-decoration: none;
         color: #9608e8;
     }
     
-    a:hover {
+    a:hover,
+    .pricing li:nth-child(3):hover {
         color: #952bf8;
         text-decoration: none;
     }
@@ -30,6 +32,11 @@
     h5,
     h6 {
         font-family: "Raleway", sans-serif;
+    }
+    
+    h6:hover,
+    h6:focus {
+        color: darkorchid;
     }
     /*--------------------------------------------------------------
 # Back to top button
@@ -113,8 +120,7 @@
     /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-    
-   /*  @media screen and (max-width: 768px) {
+    /*  @media screen and (max-width: 768px) {
         [data-aos-delay] {
             transition-delay: 0 !important;
         }
@@ -131,8 +137,7 @@
     /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-    
-   /*  #header {
+    /*  #header {
         background: rgba(0, 0, 0, 0.1);
         transition: all 0.5s;
         z-index: 997;
@@ -431,7 +436,6 @@
     
     #hero {
         width: 100%;
-
         overflow: hidden;
         position: relative;
         background: url("../img/HEH/human-energy-bicycles-render.jpg") top center;
@@ -502,7 +506,7 @@
             width: 5%;
         }
     }
-   /*  
+    /*  
     @media (max-width: 768px),
     (max-height: 700px) {
         #hero {
@@ -1139,11 +1143,6 @@
         top: calc(50% - 18px);
         color: white;
         transition: ease-in-out 0.3s;
-    }
-    
-    .portfoio .portfolio-item .portfolio-info .preview-link:hover,
-    .portfoio .portfolio-item .portfolio-info .details-link:hover {
-        color: #8ec8fb;
     }
     
     .portfoio .portfolio-item .portfolio-info .details-link {

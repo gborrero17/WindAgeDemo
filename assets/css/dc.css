@@ -7,12 +7,14 @@
         color: #444444;
     }
     
-    a {
+    a,
+    .pricing li:nth-child(3) {
         text-decoration: none;
         color: #2c2c2c;
     }
     
-    a:hover {
+    a:hover,
+    .pricing li:nth-child(3):hover {
         color: #444444;
         text-decoration: none;
     }
@@ -24,6 +26,11 @@
     h5,
     h6 {
         font-family: "Raleway", sans-serif;
+    }
+    
+    h6:hover,
+    h6:focus {
+        color: darkgrey;
     }
     /*--------------------------------------------------------------
 # Back to top button
@@ -107,7 +114,7 @@
     /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-   /*  
+    /*  
     @media screen and (max-width: 768px) {
         [data-aos-delay] {
             transition-delay: 0 !important;
@@ -125,7 +132,7 @@
     /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-   /*  
+    /*  
     #header {
         background: rgba(0, 0, 0, 0.1);
         transition: all 0.5s;
@@ -431,7 +438,6 @@
     
     #hero {
         width: 100%;
-   
         overflow: hidden;
         position: relative;
         background: url("../img/windage-dc-willage-hero-bg.jpg") top center;
@@ -502,8 +508,7 @@
             width: 5%;
         }
     }
-    
-  /*   @media (max-width: 768px),
+    /*   @media (max-width: 768px),
     (max-height: 700px) {
         #hero {
             height: 120vh;
