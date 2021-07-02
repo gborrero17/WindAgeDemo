@@ -2233,6 +2233,14 @@
         font-size: 14px;
     }
     
+    #footer a {
+        color: #fff;
+    }
+    
+    #footer a:hover {
+        color: #952bf8;
+    }
+    
     #footer .footer-newsletter {
         padding: 50px 0;
         background: #7f059e;
