@@ -2302,6 +2302,14 @@ section {
     font-size: 14px;
 }
 
+#footer a {
+    color: #fff;
+}
+
+#footer a:hover {
+    color: rgb(248, 200, 142);
+}
+
 #footer .footer-newsletter {
     padding: 50px 0;
     background: #9e6e05;
