@@ -16,7 +16,7 @@ body {
 }
 
 a,
-li:nth-child(3) {
+.pricing li:nth-child(3) {
     text-decoration: none;
     color: #e88708;
 }

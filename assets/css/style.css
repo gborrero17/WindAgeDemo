@@ -2724,3 +2724,9 @@ section {
         width: 80%;
     }
 }
+
+
+.slide-portfolio-text ul{
+    position: relative;
+    left:3rem;
+}
