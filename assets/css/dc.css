@@ -107,7 +107,7 @@
     /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-    
+   /*  
     @media screen and (max-width: 768px) {
         [data-aos-delay] {
             transition-delay: 0 !important;
@@ -121,18 +121,18 @@
         .bi-envelope-fill::before {
             display: none;
         }
-    }
+    } */
     /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-    
+   /*  
     #header {
         background: rgba(0, 0, 0, 0.1);
         transition: all 0.5s;
         z-index: 997;
         height: 70px;
         top: 60px;
-    }
+    } */
     
     #header.header-scrolled {
         background: rgba(38, 41, 43, 0.9);
@@ -503,7 +503,7 @@
         }
     }
     
-    @media (max-width: 768px),
+  /*   @media (max-width: 768px),
     (max-height: 700px) {
         #hero {
             height: 120vh;
@@ -512,7 +512,7 @@
         #hero h2 {
             font-size: 28px;
         }
-    }
+    } */
     /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
