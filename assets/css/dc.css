@@ -431,7 +431,7 @@
     
     #hero {
         width: 100%;
-        height: 80vh;
+   
         overflow: hidden;
         position: relative;
         background: url("../img/windage-dc-willage-hero-bg.jpg") top center;

@@ -123,6 +123,17 @@ h6 {
 }
 
 
+@media (max-width: 999px) {
+
+    .turnonmail,
+    .turnonmail::before {
+        display: inline-block !important;
+    }
+
+    /* .bi-envelope-fill::before {
+        display: inline-block !important;
+    } */
+}
 
 @media (max-width: 1000px) {
     #topbar .contact-info a {
@@ -132,6 +143,7 @@ h6 {
     .bi-envelope-fill::before {
         display: none;
     }
+
 }
 
 
@@ -155,7 +167,7 @@ h6 {
 
 #topbar .contact-info a {
     line-height: 0;
-    color: black;
+    color: white;
     transition: 0.3s;
 }
 
@@ -248,6 +260,12 @@ h6 {
 
 .navbar {
     padding: 0;
+    color: #fff;
+}
+
+.nav-link:focus,
+nav-link:hover {
+    color: #fff;
 }
 
 .navbar ul {
@@ -304,6 +322,7 @@ h6 {
 .navbar .active:before {
     visibility: visible;
     width: 100%;
+    color: #fff;
 }
 
 .navbar a:hover,
@@ -347,7 +366,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #0880e8;
+    color: #fff;
 }
 
 .navbar .dropdown:hover>ul {
@@ -506,7 +525,7 @@ h6 {
 
 #hero {
     width: 100%;
-    height: 80vh;
+
     overflow: hidden;
     position: relative;
     background: url("../img/hero.png") top center;
@@ -680,7 +699,8 @@ section {
     .icon-boxes .icon-box {
         height: 295px;
     }
-    .topbar-icons{
+
+    .topbar-icons {
         display: none;
     }
 }
@@ -723,19 +743,26 @@ section {
 /* On screens that are 600px wide or less, the background color is olive */
 
 @media screen and (max-width: 767px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+
     .icon-boxes .icon-box {
         height: auto;
     }
-    .topbar-icons{
+
+    .topbar-icons {
         display: block !important;
     }
+
 }
 
 @media screen and (max-width: 376px) {
-    /* .topbar-icons{
-        display: none !important;
-    } */
-    .topbar-icons span{
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+
+    .topbar-icons span {
         display: none;
     }
 }
@@ -757,6 +784,7 @@ section {
     margin-bottom: 15px;
     font-size: 18px;
 }
+
 
 .icon-boxes .title a {
     color: #05579e;
