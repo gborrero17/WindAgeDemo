@@ -635,6 +635,9 @@ nav-link:hover {
     #hero h2 {
         font-size: 28px;
     }
+    .carousel-container row a {
+        margin: 0 30px 20px 30px;
+    }
 }
 
 
@@ -756,6 +759,20 @@ section {
     .topbar-icons span {
         display: none;
     }
+    .services img {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .services .icon-box p {
+        margin-left: 0px !important;
+    }
+    .wrapTextToImage {
+        width: 80vw !important;
+        margin: 0px !important;
+    }
+    .faq img {
+        width: 500% !important;
+    }
 }
 
 .icon-boxes .icon {
@@ -870,6 +887,21 @@ section {
 @media (max-width: 992px) {
     .about {
         padding: 60px 0;
+    }
+    .services .icon-box p {
+        margin-left: 0px !important;
+    }
+}
+
+@media (min-width: 513px) and (max-width: 992px) {
+    .about {
+        padding: 60px 0;
+    }
+    .services img {
+        width: 50% !important;
+    }
+    .faq img {
+        width: 200% !important;
     }
 }
 
