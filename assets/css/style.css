@@ -1396,6 +1396,88 @@ section {
     bottom: 0;
 }
 
+.portVideo {
+    width: 410px;
+    height: 310px;
+}
+
+@media (max-width: 1401px) {
+    .portVideo {
+        width: 356px;
+        height: 267px;
+    }
+}
+
+@media (max-width: 1201px) {
+    .portVideo {
+        width: 296px;
+        height: 222px;
+    }
+}
+
+@media (max-width: 991px) {
+    .portVideo {
+        width: 336px;
+        height: 252px;
+    }
+}
+
+@media (max-width: 767.5px) {
+    .portVideo {
+        width: 410px;
+        height: 307.5px;
+    }
+}
+
+@media (max-width: 499px) {
+    .portVideo {
+        width: 336px;
+        height: 252px;
+    }
+}
+
+@media (max-width: 415px) {
+    .portVideo {
+        width: 390.4px;
+        height: 292.8px;
+    }
+}
+
+@media (max-width: 412px) {
+    .portVideo {
+        width: 387.2px;
+        height: 290.4px;
+    }
+}
+
+@media (max-width: 376px) {
+    .portVideo {
+        width: 351.2px;
+        height: 263.4px;
+    }
+}
+
+@media (max-width: 361px) {
+    .portVideo {
+        width: 336px;
+        height: 252px;
+    }
+}
+
+@media (max-width: 321px) {
+    .portVideo {
+        width: 296px;
+        height: 222px;
+    }
+}
+
+@media (max-width: 281px) {
+    .portVideo {
+        width: 256px;
+        height: 192px;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
