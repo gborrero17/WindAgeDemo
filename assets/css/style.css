@@ -1446,12 +1446,19 @@ section {
     }
 }
 
-@media (max-width: 499px) {
+
+/* @media (max-width: 499px) {
     .portVideo {
         width: 336px;
         height: 252px;
     }
-}
+    .portfoio .portfolio-item .portfolio-info {
+        opacity: 1 !important;
+    }
+    .portfoio .portfolio-item .portfolio-info {
+        margin: 30px;
+    }
+} */
 
 @media (max-width: 415px) {
     .portVideo {
