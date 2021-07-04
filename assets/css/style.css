@@ -715,6 +715,23 @@ section {
     }
 }
 
+@media screen and (max-width: 910px) {
+    #hero .btn-get-started {
+        font-size: smaller;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #hero .btn-get-started {
+        font-size: smaller;
+        width: 60%;
+        height: 8vh;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
 .icon-boxes ul {
     font-size: smaller;
 }
