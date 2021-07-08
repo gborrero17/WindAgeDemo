@@ -602,7 +602,8 @@ nav-link:hover {
     color: #fff;
     background: #f6b024;
     padding: 6px 24px 8px 24px;
-    display: inline-block;
+    display: inline-grid;
+    align-items: center;
     transition: 0.3s;
     border-radius: 50px;
     border: 1px solid;
