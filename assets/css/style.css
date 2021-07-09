@@ -3101,3 +3101,88 @@ section {
         top: -450px;
     }
 }
+
+
+/*******************************STYLE FOR ADVANTAGES READ MORE********************************************/
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+#page-wrap {
+    width: 100%;
+    height: fit-content;
+}
+
+h1 {
+    box-shadow: 0 0 20px black;
+}
+
+.button {
+    border-top: 1px solid #43c522;
+    background: darkgreen;
+    background: -webkit-gradient(linear, left top, left bottom, from(darkgreen), to(#43c522));
+    background: -moz-linear-gradient(top, darkgreen, #43c522);
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    /* overboard shadows for Opera (and why spec version listed first) */
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0, rgba(0, 0, 0, 90) 0 0 10px, rgba(0, 0, 0, 90) 0 0 20px, rgba(0, 0, 0, 90) 0 0 30px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button:hover {
+    border-top-color: #43c522;
+    background: darkgreen;
+    color: #ccc;
+}
+
+.button:active {
+    border-top-color: darkgreen;
+    background: #43c522;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+.sidebar-box {
+    float: left;
+    width: 100%;
+    margin: 0 20px 0 0;
+}
+
+.sidebar-box {
+    max-height: 200px;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sidebar-box .read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0 30px 0;
+    /* "transparent" only works here because == rgba(0,0,0,0) */
+    background-image: -moz-linear-gradient(top, transparent, darkgreen);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(1, darkgreen));
+}
