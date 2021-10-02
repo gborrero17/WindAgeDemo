@@ -686,6 +686,15 @@ section {
     z-index: 100;
 }
 
+#outerVideo {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
 .icon-boxes .icon-box {
     padding: 40px 30px;
     position: relative;
@@ -698,7 +707,7 @@ section {
 
 @media screen and (max-width: 100000000000px) {
     .icon-boxes .icon-box {
-        height: 295px;
+        height: 440px;
     }
     .topbar-icons {
         display: none;
@@ -707,7 +716,7 @@ section {
 
 @media screen and (max-width: 1400px) {
     .icon-boxes .icon-box {
-        height: 313px;
+        height: 440px;
     }
 }
 
@@ -734,9 +743,10 @@ section {
     }
 }
 
-.icon-boxes ul {
+
+/* .icon-boxes ul {
     font-size: smaller;
-}
+} */
 
 
 /* On screens that are 600px wide or less, the background color is olive */
@@ -752,7 +762,7 @@ section {
 
 @media screen and (max-width: 992px) {
     .icon-boxes .icon-box {
-        height: 300px;
+        height: 364px;
     }
 }
 
